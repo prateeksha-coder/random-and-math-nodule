@@ -1,7 +1,7 @@
 import math  
-print(math.sin(45))
-print(math.cos(45))
-print(math.tan(45))
+#print(math.sin(45))
+#print(math.cos(45))
+#print(math.tan(45))
 
 print(math.ceil(45.490))
 print(math.floor(45.890))
@@ -10,4 +10,5 @@ print(math.copysign(2.71,-4))
 print(math.exp(3))
 print(math.sqrt(9))
 r=math.radians(30)
-print(math.sin(r))
+print(math.gcd(24,56))
+#print(math.sin(r))

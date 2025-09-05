@@ -1,4 +1,4 @@
 import random
-#random.seed("Hello")
+random.seed(1.2)
 r=random.choice("hello world")
 print(r)
