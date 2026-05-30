@@ -1,8 +1,7 @@
-import random
-random.seed(1)
-r1=random.randint(1,5)
-r=random.random() #between 0.0 to 1.0
-r2=random.choice([1,5])
-print(r1)
-print(r)
-print(r2)
+import math  
+
+print(math.ceil(45.99))
+print(math.floor(45.890))
+print(math.factorial(5))#5*4*3*2*1
+print(math.copysign(-2.71,4))
+print(math.gcd(8,24))
