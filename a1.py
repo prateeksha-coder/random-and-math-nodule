@@ -1,6 +1,6 @@
-import random #importing module
-playing = True #initialise
-number = random.randint(10,20) #random in-built function   
+import random 
+playing = True 
+number = random.randint(10,20) 
 while playing:
   guess = int(input("Give me your best guess! \n"))
   if number == guess:
